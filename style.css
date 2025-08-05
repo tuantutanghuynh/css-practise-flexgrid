@@ -1,0 +1,81 @@
+body{
+  font-family: 'arial', sans-serif;
+  background-color: #ffffff;
+  color: #000;
+  margin:0;
+  padding:0;
+}
+
+.container{
+  max-width: 700px;
+  margin:0 auto;
+  padding: 20px;
+  background-color: #fdf7ed;
+}
+
+.main-title{
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.sub-header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.boutique{
+  border: 2px solid #8a5224;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:20px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.section .reverse{
+  grid-template-columns: 1fr 1fr;
+  direction: rtl;
+}
+
+.section .reverse .text-block{
+  direction: ltr;
+}
+img{
+  width: 300px;
+}
+.image-block{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.text-block h2{
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.text-block p{
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+footer-text{
+  text-align: center;
+  font-size: 14px;
+  padding:20px 0;
+  border-top: 1px dotted gray;
+  margin-top: 40px;
+}
