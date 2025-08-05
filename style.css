@@ -72,10 +72,10 @@ img{
   line-height: 1.5;
 }
 
-footer-text{
+.footer-text{
   text-align: center;
   font-size: 14px;
-  padding:20px 0;
+  padding: 20px 0;
   border-top: 1px dotted gray;
   margin-top: 40px;
 }
